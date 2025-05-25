@@ -7,7 +7,9 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="IxMilia.Dxf" Version="0.8.4" />
     <PackageReference Include="Occt.NET" Version="7.9.0" />
+    <PackageReference Include="Stl.Net" Version="5.1.25" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="8.1.2" />
   </ItemGroup>
 
