@@ -1,6 +1,5 @@
 ﻿using System.IO;
 using System.Threading.Tasks;
-using IxMilia.Dxf;
 
 namespace ParseModel
 {
@@ -51,6 +50,12 @@ namespace ParseModel
         public Task<IndustialModel> ParseModelFileAsync(string filePath)
         {
             throw new NotImplementedException();
+        }
+
+        private void ParseStlFile(string filePath, IndustialModel model)
+        { 
+            // 使用stl库解析STL文件
+            //using var stlReader = new StlReader(filePath);
         }
     }
 }
